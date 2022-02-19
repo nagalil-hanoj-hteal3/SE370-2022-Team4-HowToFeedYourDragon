@@ -15,7 +15,7 @@ public class Poker extends JFrame {
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
-		jp.setBackground(Color.GREEN.darker().darker());
+		jp.setBackground(Color.GREEN.darker().darker().darker());
 		add(jp);
 	}
 	
