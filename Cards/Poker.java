@@ -7,15 +7,15 @@ import javax.swing.JPanel;
 
 public class Poker extends JFrame {
 	JPanel jp = new JPanel();
-	JPanel jp2 = new JPanel();
+	//JPanel jp2 = new JPanel();
 	
 	public Poker() {
 		setTitle("Card Randomizer");
-		setSize(1500,800);
+		setSize(1000,500);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
-		jp.setBackground(Color.GREEN);
+		jp.setBackground(Color.GREEN.darker().darker());
 		add(jp);
 	}
 	
@@ -23,4 +23,5 @@ public class Poker extends JFrame {
 		Poker p = new Poker();
 	}
 }
+
 
