@@ -1,0 +1,38 @@
+3-3-21
+
+Looking up and learning stuff about the java application project.
+
+I believe it would be best to code our project with Maven because
+  1. it is a more powerful toolset with which to build a project in Java
+  2. it seems to be the industry standard build tool
+  3. if the app will be further developed then it would probably be best to use this toolkit
+  4. it automatically creates the right project structure
+  
+  
+Upon creation of a java with Maven project, you will see the following project structure:
+ProjectName
+  ->source packages
+    >com.mycompany.projectname
+  ->Dependencies
+  ->Java Dependencies
+    >JDK 14(Default)
+      >(a whole bunch of stuff)
+  ->Project File
+    >pom.xml
+    
+    But what do these mean exactly?
+    Source Packages - these contain anything with a .java extension including java classes, interfaces, and enumeration type files.
+    The rest seems to be irrelevant for now.
+    
+    When you create a class file, make sure it is placed within source packages
+    
+    For information about Maven standard directory layout: https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html
+    >But the important information is that images that will be used within the UI will need to be located in src/main/resources folder since Maven looks for it there by default.
+    >src/main/java has all the class files
+    
+    <<<<Now onto the really important stuff--UI templates>>>>
+    To create a UI template, create a package to house it and then add JFrame/JPanel form.  This tool lets you design the window without coding and then running the program repeatedly.
+    You can drag/drop design features such as buttons, choose colors, and more.  To open the code behind a feature, double click it.
+    
+    But how do you create/design multiple UI windows?  Still learning but it seems like your just creat another form and make sure the code references all the windows.
+    
