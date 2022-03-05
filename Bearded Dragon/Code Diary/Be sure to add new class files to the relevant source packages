@@ -1,0 +1,4 @@
+Source packages allow java developers to package relevant classes together to avoid naming conflicts and boost code organization.
+
+I have created two packages-UIPackage and BackEndStuff.  Not the best names, I know.  
+When you go to add a new class file, make sure the right package is selected, right click, then click add to select your class file.
