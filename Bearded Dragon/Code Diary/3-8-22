@@ -1,0 +1,4 @@
+Struggled with getting ImageIcon to populate an icon from an image in another package.  Given up for now and used an absoluate path which was what I could get to work.  
+Posted an inquiry to stackexchange.  Hopefully that will get me unstuck.  Aside from that, I updated the project file.  Apologies for all the commented out code.
+I meant to delete LoginPage since I accidentally corrupted the auto-generated form code when I was trying abunch of stuff to get my code to work. LandingPage is 
+what I will be using for the first page a user sees.
