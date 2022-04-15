@@ -1,0 +1,76 @@
+json parser (fao)
+
+Update pom.xml with json-simple maven dependency.
+
+pom.xml
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+to read a file
+dependencies:
+//
+//
+package *;
+ 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+ 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+ 
+public class ReadJSONFAO 
+
+/*
+public class ReadJSONFAO 
+{
+    @SuppressWarnings("unchecked")
+    public static void main(String[] args) 
+    {
+        //JSON parser object to parse read file
+        JSONParser jsonParser = new JSONParser();
+         
+        try (FileReader reader = new FileReader("htfyd.json"))
+        {
+            //Read JSON file
+            Object obj = jsonParser.parse(reader);
+ 
+            JSONArray htfyd = (JSONArray) obj;
+            System.out.println(htfyd);
+             
+            //Iterate over htfyd array
+            htfyd.forEach( emp -> parseHTFYDObject( (JSONObject) emp ) );
+ 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
+ 
+    private static void parseFoodObject(JSONObject food) 
+    {
+        //Get food object within list
+        JSONObject foodObject = (JSONObject) food.get("food");
+         
+        //Get food name
+        String foodName = (String) htfyd.get("foodName");    
+        //perform action call example: System.out.println(foodName);
+         
+        //Get food restriction
+        String foodRes = (String) htfyd.get("foodRes");    
+        //perform action call example: System.out.println(foodRes);
+         
+        //Get food date
+        String foodDate= (String) htfyd.get("foodDate");    
+        //perform action call example: System.out.println(foodDate);
+    }
+}
+*/
