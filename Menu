@@ -1,0 +1,36 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.*;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+/**
+ *
+ * @author Admin
+ */
+public class Menu extends FoodsFAO{
+    private List<JSONObject> menuItems = new ArrayList<JSONObject>();
+    
+    //Ok so at this point, the file FAO has been used to assemble
+    public class Menu(int greensID1, int greensID2, int greensID3, int veggiesID1, int veggiesID2, int fruitID1, int insectID1, int insectID2, int otherID1)
+    {
+        FoodsFAO f; //create food FAO object to parse food file and find the objects
+        
+        menuItems.add(f.greens[greensID1]); //put them all into the menu list
+        menuItems.add(f.greens[greensID2]);
+        menuItems.add(f.greens[greensID3]);
+        
+        menuItems.add(f.veggies[veggiesID1]);
+        menuItems.add(f.veggies[veggiesID2]);
+        
+        menuItems.add(f.fruits[fruitID1]);
+        
+        menuItems.add(f.insect[insectID1]);
+        menuItems.add(f.insect[insectID2]);
+        
+        menuItems.add(f.other[otherID1]);
+    }
+}
