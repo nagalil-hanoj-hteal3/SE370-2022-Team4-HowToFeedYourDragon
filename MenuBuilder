@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.*;
+/**
+ *
+ * @author Admin
+ */
+public class MenuBuilder {
+    //create the arrays and populate them straight from the file using FoodFAO
+    private List<JSONObject> checkedItems = new ArrayList<JSONObject>();
+    
+    //populate the array list with checked items, if none get default menu?
+    FoodsFAO f;
+    
+    //random selection
+    
+    //call Menu to make a menu
+}
